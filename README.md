@@ -1,4 +1,5 @@
 # nginx_steam
+```bash
 stream {
     upstream hello_rancher_http
     {
@@ -12,3 +13,4 @@ stream {
         listen     30000;
         proxy_pass hello_rancher_http;
     }
+```
