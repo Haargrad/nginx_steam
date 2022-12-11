@@ -1,4 +1,7 @@
 # nginx_steam
+
+put in /etc/nginx/*.conf
+
 ```bash
 stream {
     upstream hello_rancher_http
